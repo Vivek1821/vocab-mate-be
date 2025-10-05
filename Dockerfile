@@ -31,4 +31,4 @@ COPY . .
 EXPOSE 8000
 
 # Start the app using gunicorn
-CMD ["gunicorn", "vocab_mate_be.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "vocab_mate.wsgi.application", "--bind", "0.0.0.0:8000"]
