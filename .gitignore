@@ -1,0 +1,96 @@
+# =====================================
+# 🐍 Python
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =====================================
+# 🧩 Django / DRF Specific
+# =====================================
+
+# SQLite database
+db.sqlite3
+db.sqlite3-journal
+
+# Local settings or environment files
+.env
+*.env
+.env.*
+
+# Django migration files (optional — uncomment if you don’t want to push them)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# Static and media files
+/staticfiles/
+/media/
+/static/
+/uploads/
+
+# Logs
+*.log
+*.pot
+*.pyc
+*.mo
+*.pot
+*.log
+*.out
+*.pid
+
+# Cache / celery / redis
+celerybeat-schedule
+*.pid
+*.swp
+*.swo
+
+# =====================================
+# 🧰 IDE / Editor Settings
+# =====================================
+
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# =====================================
+# 🧪 Testing / Coverage
+# =====================================
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+test-results/
