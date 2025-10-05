@@ -144,6 +144,8 @@ CORS_ALLOWED_ORIGINS = os.getenv(
 
 CORS_ALLOW_CREDENTIALS = True
 
+ALLOWED_HOSTS = ['.onrender.com']
+
 # JWT Settings
 from datetime import timedelta
 
